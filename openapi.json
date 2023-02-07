@@ -11796,7 +11796,7 @@
   },
   "servers": [
     {
-      "url": "https://v3.recurly.com"
+      "url": "/"
     }
   ],
   "components": {
