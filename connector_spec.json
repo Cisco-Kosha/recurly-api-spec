@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "fields": [
+    {
+      "field": "USERNAME",
+      "displayName": "Recurly API Key",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 60,
+      "required": true,
+      "description": "Recurly API Key",
+      "example": "abcdef",
+      "helpSection": "You can generate an API key by opening Recurly, navigating to Integrations and choosing Recurly API. Then click \"Generate new token\". "
+    },
+    {
+      "field": "PASSWORD",
+      "displayName": "Recurly password",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 60,
+      "required": true,
+      "default": "",
+      "description": "Dummy Password",
+      "example": "x",
+      "helpSection": "Empty string as password"
+    },
+    {
+      "field": "AUTH_TYPE",
+      "displayName": "Recurly Auth Type",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 60,
+      "required": true,
+      "description": "Recurly API Auth Type",
+      "default": "BASIC_AUTH",
+      "example": "BASIC_AUTH",
+      "helpSection": ""
+    },
+    {
+      "field": "SERVER_URL",
+      "displayName": "Recurly Server URL",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 60,
+      "required": true,
+      "description": "Recurly API Server URL",
+      "default": "https://v3.recurly.com",
+      "example": "https://v3.recurly.com",
+      "helpSection": "Use the default value https://v3.recurly.com"
+    }
+  ]
+}
