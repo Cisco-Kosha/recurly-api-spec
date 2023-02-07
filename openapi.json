@@ -5,11 +5,6 @@
     "description": "# Getting Started\n\n## Change Log\n\nA list of changes for this version can be found [in the changelog](https://recurly.com/developers/api/changelog.html#v2019-10-10).\n",
     "version": "v2019-10-10"
   },
-  "security": [
-    {
-      "api_key": []
-    }
-  ],
   "x-tagGroups": [
     {
       "name": "Customers",
@@ -11801,7 +11796,7 @@
   },
   "servers": [
     {
-      "url": "/"
+      "url": "https://v3.recurly.com"
     }
   ],
   "components": {
@@ -12229,13 +12224,6 @@
         "schema": {
           "type": "string"
         }
-      }
-    },
-    "securitySchemes": {
-      "api_key": {
-        "type": "http",
-        "description": "Enter the API key as the username and set the password to an empty string. You can locate and manage your API keys from the [API Credentials](https://app.recurly.com/go/developer/api_keys) page.",
-        "scheme": "basic"
       }
     },
     "schemas": {
